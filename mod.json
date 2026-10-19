@@ -1,17 +1,28 @@
-{
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+PON_AQUI_LA_VERSIONgithub.com/geode-sdk/geode/releases{
+    "geode": "PON_AQUI_LA_VERSION",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "jeremyjaquez.inputbuffer",
+    "name": "Input Buffer",
+    "version": "v1.0.0",
+    "developer": "Jeremy",
+    "description": "Guarda un clic anticipado y lo ejecuta al poder saltar.",
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "name": "Activar buffer",
+            "default": true
+        },
+        "buffer-ms": {
+            "type": "float",
+            "name": "Ventana del buffer (ms)",
+            "default": 50,
+            "min": 5,
+            "max": 200
+        }
+    }
 }
